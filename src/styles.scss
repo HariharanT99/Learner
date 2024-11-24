@@ -1,1 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 /* You can add global styles to this file, and also import other style files */
+
+// Import the variables
+@import "./styles/variables";
+
+// Use the variables in your global styles
+body {
+  background-color: $primary-color;
+  color: $secondary-color;
+  font-family: "Inter", sans-serif; // Apply the configured font family
+}

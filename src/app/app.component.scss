@@ -1,0 +1,8 @@
+// Import the variables
+@import "../styles/_variables";
+
+// Use the variables in your component styles
+.app-root {
+  background-color: $primary-color;
+  color: $secondary-color;
+}
